@@ -1,0 +1,13 @@
+mongodb_port: 27017
+mongodb_bind_ip: 127.0.0.1
+
+mongodb_backup_user: "mongo-admin"
+mongodb_backup_max_days: 30
+
+
+mongodb_org_version : "3.0.5" 
+mongodb_org_server_version : "{{ mongodb_org_version}}"
+mongodb_org_shell_version  : "{{ mongodb_org_version}}"
+mongodb_org_mongos_version  : "{{ mongodb_org_version}}"
+mongodb_org_tools_version  : "{{ mongodb_org_version}}"
+
